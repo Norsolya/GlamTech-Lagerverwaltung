@@ -5,9 +5,10 @@ import view.ConsoleUI;
  * Entry point of the GlamTech Beauty Shop Inventory System.
  * Responsible for creating and wiring together the application components.
  *
- * Main only does three things
+ * Main does:
  * create the service
  * load the data
+ * injects LagerService
  * start the UI.
  *
  * This pattern is called "composition root"
